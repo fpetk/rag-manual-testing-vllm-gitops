@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rag-manual-testing-vllm-database-config
+data:
+  VECTORDB_HOST: "rag-manual-testing-vllm-database"
+  VECTORDB_PORT: "8000"
